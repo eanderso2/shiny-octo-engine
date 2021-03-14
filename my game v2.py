@@ -76,3 +76,7 @@ print("you : there are footprints. mabye",friend_name,"is getting wood")
 time.sleep(1)
 print("you : why are there other footprints that",friend_name,"did not make")
 time.sleep(1)
+mapopen1 = input("do you want to open the map")
+If mapopen1 == "yes":
+    map
+
