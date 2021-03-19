@@ -2,9 +2,20 @@ import time
 import turtle
 def map():
     turtle.penup()
-    turtle.forward(450)
-    turtle.bye()
-turtle.penup()
+    turtle.forward(440)
+    turtle.pendown()
+    turtle.right(90)
+    turtle.forward(380)
+    turtle.right(90)
+    turtle.forward(890)
+    turtle.right(90)
+    turtle.forward(770)
+    turtle.right(90)
+    turtle.forward(890)
+    turtle.right(90)
+    turtle.forward(390)
+    turtle.penup()
+    turtle.goto(x=0,y=0)
 print("this was made by CONTUNUM PROGRAMING")
 def game_over():
     print("game over")
@@ -57,7 +68,7 @@ if tent=="yes":
 time.sleep(1)
 print("it is time to go to bed")
 time.sleep(1)
- print(" ______  __    __       ___      .______   .___________. _______ .______          ___   ") 
+print(" ______  __    __       ___      .______   .___________. _______ .______          ___   ") 
 print(" /      ||  |  |  |     /   \     |   _  \  |           ||   ____||   _  \        |__ \  ") 
 print("|  ,----'|  |__|  |    /  ^  \    |  |_)  | `---|  |----`|  |__   |  |_)  |          ) | ") 
 print("|  |     |   __   |   /  /_\  \   |   ___/      |  |     |   __|  |      /          / /  ") 
@@ -76,7 +87,8 @@ print("you : there are footprints. mabye",friend_name,"is getting wood")
 time.sleep(1)
 print("you : why are there other footprints that",friend_name,"did not make")
 time.sleep(1)
-mapopen1 = input("do you want to open the map")
-If mapopen1 == "yes":
-    map
+map1=input("do you want to open the map ")
+if map1=="yes":
+    map()
+
 
