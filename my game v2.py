@@ -90,5 +90,4 @@ time.sleep(1)
 map1=input("do you want to open the map ")
 if map1=="yes":
     map()
-
-
+    
