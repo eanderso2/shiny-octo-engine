@@ -115,4 +115,22 @@ time.sleep(1)
 map1=input("do you want to open the map ")
 if map1=="yes":
     map()
-    
+print("the dot is",friend_name,"and the arrow is you")
+di1=input("do you go right or left ")
+if di1 == "left":
+    game_over()
+time.sleep(1)
+di2=input("do you go right or left ")
+if di2=="left":
+    game_over()
+time.sleep(1)
+di3=input("do you go forward or backward ")
+if di3=="backward":
+    game_over()
+time.sleep(1)
+di4=input("do you go forward or backward ")
+if di4=="backward":
+    game_over()
+time.sleep(1)
+print("kidnaper 1 : da boss will be mad dat our secret base was found")
+print("kidnaper 2 : yah")
