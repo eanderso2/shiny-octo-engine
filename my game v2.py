@@ -134,4 +134,4 @@ if di4=="backward":
 time.sleep(1)
 print("kidnaper 1 : da boss will be mad dat our secret base was found")
 print("kidnaper 2 : yah")
-orint(friend_name,":mphmfph")
+print(friend_name,":mphmfph")
