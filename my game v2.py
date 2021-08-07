@@ -1,6 +1,7 @@
 import time
 import turtle
 def map():
+    turtle.reset()
     turtle.penup()
     turtle.forward(440)
     turtle.pendown()
@@ -41,9 +42,8 @@ def map():
     turtle.dot(size=10)
     turtle.penup()
     turtle.goto(x=0,y=0)
-    time.sleep(5)
-    turtle.bye()
 def map_2():
+    turtle.reset()
     turtle.penup()
     turtle.forward(440)
     turtle.pendown()
@@ -87,8 +87,8 @@ def map_2():
     turtle.right(135)
     turtle.forward(50)
     time.sleep(5)
-    turtle.bye()
 def map_3():
+    turtle.reset()
     turtle.penup()
     turtle.forward(440)
     turtle.pendown()
@@ -133,8 +133,8 @@ def map_3():
     turtle.forward(100)
     turtle.right(90)
     time.sleep(5)
-    turtle.bye()
 def map_4():
+    turtle.reset()
     turtle.penup()
     turtle.forward(440)
     turtle.pendown()
@@ -177,11 +177,12 @@ def map_4():
     turtle.goto(x=0,y=0)
     turtle.right(135)
     turtle.forward(100)
-    turtle.right(90)
+    turtle.left(90)
     turtle.forward(50)
     time.sleep(5)
-    turtle.bye()
+
 def map_5():
+    turtle.reset()
     turtle.penup()
     turtle.forward(440)
     turtle.pendown()
@@ -224,10 +225,9 @@ def map_5():
     turtle.goto(x=0,y=0)
     turtle.right(135)
     turtle.forward(100)
-    turtle.right(90)
+    turtle.left(90)
     turtle.forward(100)
     time.sleep(5)
-    turtle.bye()
 print("this was made by CONTUNUM PROGRAMING")
 def game_over():
     print("game over")
@@ -264,9 +264,7 @@ print(friend_name,": what are we going to eat other than the Doritos from the pl
 time.sleep(1)
 print(friend_name,": coconut. (not)")
 time.sleep(1)
-print("if you see a , then add a answer")
-time.sleep(1)
-food=input("there is a coconut tree nearby and a watermelon patch by a river. choose one ")
+food=input("do you want cocunut or watermelon")
 print("okay") 
 time.sleep(1)
 print(friend_name,": i will go get some",food)
@@ -336,9 +334,8 @@ time.sleep(1)
 print("kidnaper 2 : yah")
 time.sleep(1)
 print(friend_name,":mphmfph")
-at1 = input("do you want to go in now or wait till night")
+at1 = input("do you want to go in now or wait till night ")
 if at1 == ("wait till night"):
      print("kidnapper 1 : *yawn* me go to bed")
 else:
     game_over()
-
