@@ -959,8 +959,8 @@ else:
     time.sleep(2)
     game_over()
 print("The dot is",friend_name," and the arrow is you")
-dir1=input("")
-if dir1 == "l":
+dir1=input("do you want to go right or left")
+if dir1 == "left":
     print("You went left and encountered a group of man eating baboons. Good job. You died.")
     time.sleep(2)
     game_over()
@@ -972,8 +972,8 @@ else:
     print("Why wouldn't you say yes???")
     time.sleep(2)
     game_over()
-dir2=input("Do you go right or left? Type 'l' for left and 'r' for right. ")
-if dir2=="l":
+dir2=input("Do you go right or left?")
+if dir2=="left":
     print("You went left, and ended back up at your tent, where you found a group of wolves eating your doritos. You died.")
     time.sleep(2)
     game_over()
@@ -985,8 +985,8 @@ else:
     print("Why wouldn't you say yes???")
     time.sleep(2)
     game_over()
-dir3=input("")
-if dir3=="d":
+dir3=input("do you want to go south(down) ot north(up)")
+if dir3=="south":
     print("You went south, and found a shack.")
     time.sleep(1)
     print("You entered the shack, and found a man inside saying 'AHAHAHAHAH! It's ALIVE!'.")
@@ -1002,8 +1002,8 @@ else:
     print("Why wouldn't you say yes???")
     time.sleep(2)
     game_over()
-dir4=input("Do you go up or down. Type 'u' for up, and 'd' for down. ")
-if dir4=="d":
+dir4=input("do you want to go north(up) or soyth(down). ")
+if dir4=="south":
     print("You went back to where you were before. You hear some shouting, and then you see frankenstein.")
     time.sleep(1)
     print("After that, You Ded. You have failed. Great job.")
@@ -1023,7 +1023,7 @@ print("Bobert the Kidnapper: Yeh...")
 time.sleep(1)
 print(friend_name,": MPMFHFPM!!")
 at1 = input("Do you want to go in now, or wait till night? Type 'now' to go in now, or type 'later' to go at night. ")
-if at1 == ("now"):
+if at1 == ("later"):
      print("Robert: *Y A W N*, I am gonna go to bed.")
 else:
     print("You went in, and you died. Lol")
@@ -1062,3 +1062,7 @@ print("`---|  |----`|  |__|  | |  |__      |  |__   |   \|  | |  .--.  ||  | |  
 print("    |  |     |   __   | |   __|     |   __|  |  . `  | |  |  |  ||  | |  | |  | ")
 print("    |  |     |  |  |  | |  |____    |  |____ |  |\   | |  '--'  ||__| |__| |__| ")
 print("    |__|     |__|  |__| |_______|   |_______||__| \__| |_______/ (__) (__) (__) ")
+time.sleep(3)
+print("or is it")
+print("you win")
+quit()
